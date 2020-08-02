@@ -8,9 +8,9 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Picked</h1>
+        <h1>Picked Organic</h1>
         <p>
-          Community supported agriculture <br />
+          A Community supported agriculture farm. <br />
 Community supported agriculture (CSA) is a partnership between farmers and consumers in which the responsibilities, risks and rewards of farming are shared.
         </p>
       </div>
