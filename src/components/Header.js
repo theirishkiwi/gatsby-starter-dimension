@@ -10,9 +10,9 @@ const Header = props => (
       <div className="inner">
         <h1>Picked Organic</h1>
         <p>
-Farming using organic principles. <br />
-Community supported agriculture (CSA) is a partnership between farmers and consumers in which the responsibilities, risks and rewards of farming are shared.
-        </p>
+We are a Market Garden growing vegetables using organic principles.<br/>
+
+       </p>
       </div>
     </div>
     <nav>
