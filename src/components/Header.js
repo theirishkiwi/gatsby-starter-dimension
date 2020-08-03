@@ -5,7 +5,7 @@ import logo from '../images/logo.jpg'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-diamond" >
+      <span className="" >
 
             <img src=
 
