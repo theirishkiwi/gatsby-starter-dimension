@@ -32,7 +32,9 @@ We are a Market Garden growing vegetables using organic principles.<br/>
               props.onOpenArticle('work')
             }}
           >
-            Work
+            Veg Boxes
+
+
           </button>
         </li>
         <li>
