@@ -51,8 +51,7 @@ We are a Market Garden growing vegetables using organic principles.<br/>
               props.onOpenArticle('about')
             }}
           >
-            Our Stor
-            
+            Our Story
           </button>
         </li>
         <li>
