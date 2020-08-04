@@ -31,7 +31,7 @@ We are a Market Garden growing vegetables using organic principles.<br/>
               props.onOpenArticle('intro')
             }}
           >
-            FAQ's
+            Veg Boxes
           </button>
         </li>
         <li>
@@ -40,7 +40,7 @@ We are a Market Garden growing vegetables using organic principles.<br/>
               props.onOpenArticle('work')
             }}
           >
-            Veg Boxes
+            FAQ's
 
 
           </button>
@@ -60,7 +60,7 @@ We are a Market Garden growing vegetables using organic principles.<br/>
               props.onOpenArticle('contact')
             }}
           >
-            Contact
+            Enquiries
           </button>
         </li>
       </ul>
