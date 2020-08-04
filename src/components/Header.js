@@ -5,7 +5,7 @@ import logo from '../images/logo.png'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="image main" >
+      <span className="logo" >
 
             <img src=
 
@@ -51,7 +51,8 @@ We are a Market Garden growing vegetables using organic principles.<br/>
               props.onOpenArticle('about')
             }}
           >
-            Our Story
+            Our Stor
+            
           </button>
         </li>
         <li>
