@@ -31,7 +31,7 @@ We are a Market Garden growing vegetables using organic principles.<br/>
               props.onOpenArticle('intro')
             }}
           >
-            Veg Boxes
+            Veg Club
           </button>
         </li>
         <li>
