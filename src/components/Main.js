@@ -28,7 +28,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Veg Boxes</h2>
+          <h2 className="major">Veg Club</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
