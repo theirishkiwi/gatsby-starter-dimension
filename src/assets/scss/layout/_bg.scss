@@ -28,10 +28,10 @@
   }
 
   &:before {
-   // @include vendor(
-   //   'transition',
-   //   'background-color #{_duration(bg)} ease-in-out'
-   // );
+   @include vendor(
+      'transition',
+      'background-color #{_duration(bg)} ease-in-out'
+    );
     @include vendor('transition-delay', '#{_duration(intro)}');
     background-image: linear-gradient(
         to top,
