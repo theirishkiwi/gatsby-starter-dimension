@@ -65,7 +65,7 @@
 
 		&.main {
 			display: block;
-			/// margin: (_size(element-margin) * 1.25) 0;
+			//margin: (_size(element-margin) * 1.25) 0;
 			width: 100%;
 
 			img {
@@ -75,13 +75,13 @@
 
 		@include breakpoint(small) {
 			&.main {
-				margin: (_size(element-margin) * 1) 0;
+				//margin: (_size(element-margin) * 1) 0;
 			}
 		}
 
 		@include breakpoint(xsmall) {
 			&.main {
-				margin: (_size(element-margin) * 0.75) 0;
+				//margin: (_size(element-margin) * 0.75) 0;
 			}
 		}
 	}
