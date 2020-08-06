@@ -6,7 +6,7 @@
 
 /* LOGO */
 
-#header {
+.header {
   @include vendor('transform', 'scale(1.0)');
   -webkit-backface-visibility: hidden;
   position: fixed;
