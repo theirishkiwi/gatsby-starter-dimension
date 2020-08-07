@@ -12,8 +12,8 @@
 		display: inline-block;
 		position: relative;
 		
-		&.header_logo {
-			background-color: _palette(bg-logo-overlay);	
+	.header_logo {
+		background-color: _palette(bg-logo-overlay);	
 		}
 
 		&:before {
