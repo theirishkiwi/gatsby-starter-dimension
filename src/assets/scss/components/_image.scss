@@ -11,6 +11,10 @@
 		border: 0;
 		display: inline-block;
 		position: relative;
+		
+		&.header_logo {
+			background-color: _palette(bg-logo-overlay);	
+		}
 
 		&:before {
 			@include vendor('pointer-events', 'none');
@@ -25,10 +29,6 @@
 			position: absolute;
 			top: 0;
 			width: 100%;
-		}
-		
-		&.header_logo {
-			background-color: _palette(bg-logo-overlay);	
 		}
 
 		img {
