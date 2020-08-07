@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import pic01 from '../images/veg_club.jpg'
+import pic02 from '../images/faqs.jpg'
+import pic03 from '../images/ourstory.jpg'
 
 class Main extends React.Component {
   render() {
@@ -30,7 +30,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Veg Club</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={veg_club} alt="" />
           </span>
           <p>
             Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
@@ -64,7 +64,7 @@ class Main extends React.Component {
         >
           <h2 className="major">FAQ's</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={faqs} alt="" />
           </span>
           <p>
             Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
@@ -93,7 +93,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Our Story</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={ourstory} alt="" />
           </span>
           <p>
             Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
