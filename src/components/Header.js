@@ -5,7 +5,7 @@ import logo from '../images/logo.png'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="image header_logo main" >
+      <span className="image main" >
 
             <img src=
 
