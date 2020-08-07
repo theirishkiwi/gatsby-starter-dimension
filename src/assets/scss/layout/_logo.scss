@@ -1,9 +1,9 @@
 image {
-	        //&.header_logo {
-	        //	background-color: _palette(bg-logo-overlay);	
-		//}
+	        &.header_logo {
+	        	background-color: _palette(bg-logo-overlay) !default;	
+		}
 
 		&:before {
-			background-color: _palette(bg-logo-overlay);
+			background-color: _palette(bg-logo-overlay) !default;
 		}
 }
