@@ -26,6 +26,10 @@
 			top: 0;
 			width: 100%;
 		}
+		
+		&.header_logo {
+			background-color: _palette(bg-logo-overlay);	
+		}
 
 		img {
 			border-radius: _size(border-radius);
