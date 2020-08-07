@@ -1,9 +1,9 @@
 image {
 	        &.header_logo {
-	        	background-color: _palette(bg-logo-overlay) !default;	
+	        	background-color: _palette(bg-logo-overlay) !important;	
 		}
 
 		&:before {
-			background-color: _palette(bg-logo-overlay) !default;
+			background-color: _palette(bg-logo-overlay) !important;
 		}
 }
