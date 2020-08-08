@@ -145,7 +145,7 @@ class Main extends React.Component {
           </form>
           <ul className="icons">
             <li>
-              <a href="https://" className="icon fa-facebook">
+              <a href="https://www.facebook.com/Picked-Organic-110084570769157/" className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
             </li>
