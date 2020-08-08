@@ -115,7 +115,13 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Enquiries</h2>
-          <form  name="enquiries" method="post" data-netlify="true">
+
+<form name="enquiries" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+
+  {/* You still need to add the hidden input with the form name to your JSX form */}
+
+  <input type="hidden" name="form-name" value="enquiries" />
+
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
