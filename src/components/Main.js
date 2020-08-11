@@ -14,28 +14,6 @@ export default class Main extends React.Component {
         }}
       ></div>
     )
-    
- class Main extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isSmall: false,
-      isLarge: false,
-      numberOfBoxes: 1
-    };
-
-    this.handleInputChange = this.handleInputChange.bind(this);
-  }
-
-  handleInputChange(event) {
-    const target = event.target;
-    const value = target.type === 'checkbox' ? target.checked : target.value;
-    const name = target.name;
-
-    this.setState({
-      [name]: value
-    });
-  };
 
     return (
       <div
@@ -122,11 +100,6 @@ export default class Main extends React.Component {
     );
   }
 }
-
-ReactDOM.render(
-  <Reservation />,
-  document.getElementById('root')
-);
           {close}
         </article>
 
