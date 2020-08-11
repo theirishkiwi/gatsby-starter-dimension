@@ -56,7 +56,7 @@ class Main extends React.Component {
             We supply our Veg Club members with fresh organic fruit and vegetables all year round.
           </p>
 
-        <h2 className="major">Veg Club Subscription</h2>
+        <h3 className="major">Veg Club Subscription</h3>
 
   render() {
     return (
