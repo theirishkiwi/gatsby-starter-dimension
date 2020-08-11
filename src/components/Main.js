@@ -35,7 +35,7 @@ export default class Main extends React.Component {
     this.setState({
       [name]: value
     });
-  }
+  };
 
     return (
       <div
