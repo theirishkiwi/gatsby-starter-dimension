@@ -4,7 +4,7 @@ import veg_club from '../images/veg_club.jpg'
 import faqs from '../images/faqs.jpg'
 import ourstory from '../images/ourstory.jpg'
 
-class Reservation extends React.Component {
+class Main extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
