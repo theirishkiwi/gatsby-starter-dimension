@@ -35,20 +35,11 @@ class Main extends React.Component {
           <p>
             We supply our Veg Club members with fresh organic fruit and vegetables all year round.
           </p>
-        <article
-          id="contact"
-          className={`${this.props.article === 'contact' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
-          style={{ display: 'none' }}
-        >
-          <h2 className="major">Subscribe</h2>
-
 <form name="enquiries" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
 
   {/* You still need to add the hidden input with the form name to your JSX form */}
 
-  <input type="hidden" name="form-name" value="subscribe" />
+  <input type="hidden" name="form-name" value="enquiries" />
 
             <div className="field half first">
               <label htmlFor="name">Name</label>
@@ -59,7 +50,7 @@ class Main extends React.Component {
               <input type="text" name="email" id="email" />
             </div>
             <div className="field">
-              <label htmlFor="message">Address</label>
+              <label htmlFor="message">Message</label>
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
             <ul className="actions">
@@ -71,19 +62,6 @@ class Main extends React.Component {
               </li>
             </ul>
           </form>
-          <ul className="icons">
-            <li>
-              <a href="https://www.facebook.com/Picked-Organic-110084570769157/" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/pickedorganic/" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-          </ul>
-        </article>
           {close}
         </article>
 
