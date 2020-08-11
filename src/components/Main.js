@@ -3,7 +3,7 @@ import React from 'react'
 import veg_club from '../images/veg_club.jpg'
 import faqs from '../images/faqs.jpg'
 import ourstory from '../images/ourstory.jpg'
-
+    
 class Main extends React.Component {
   constructor(props) {
     super(props);
@@ -12,6 +12,15 @@ class Main extends React.Component {
       isLarge: false,
       numberOfBoxes: 1
     };
+  render() {
+    let close = (
+      <div
+        className="close"
+        onClick={() => {
+          this.props.onCloseArticle()
+        }}
+      ></div>
+    )
 
     this.handleInputChange = this.handleInputChange.bind(this);
   }
@@ -25,17 +34,6 @@ class Main extends React.Component {
       [name]: value
     });
   }
-
-class Main extends React.Component {
-  render() {
-    let close = (
-      <div
-        className="close"
-        onClick={() => {
-          this.props.onCloseArticle()
-        }}
-      ></div>
-    )
 
     return (
       <div
