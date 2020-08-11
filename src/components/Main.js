@@ -108,7 +108,7 @@ export default class Main extends React.Component {
             </div>
             <div className="field">
               <label htmlFor="message">Address for Delivery</label>
-              <textarea name="message" id="message" rows="2"></textarea>
+              <textarea name="message" id="message" rows="4"></textarea>
             </div>
             <ul className="actions">
               <li>
