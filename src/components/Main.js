@@ -4,6 +4,28 @@ import veg_club from '../images/veg_club.jpg'
 import faqs from '../images/faqs.jpg'
 import ourstory from '../images/ourstory.jpg'
 
+class Reservation extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isSmall: false,
+      isLarge: false,
+      numberOfBoxes: 1
+    };
+
+    this.handleInputChange = this.handleInputChange.bind(this);
+  }
+
+  handleInputChange(event) {
+    const target = event.target;
+    const value = target.type === 'checkbox' ? target.checked : target.value;
+    const name = target.name;
+
+    this.setState({
+      [name]: value
+    });
+  }
+
 class Main extends React.Component {
   render() {
     let close = (
@@ -38,12 +60,40 @@ class Main extends React.Component {
 
         <h2 className="major">Veg Club Subscription</h2>
 
+  render() {
+    return (
         <form name="subscription" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
 
         {/* You still need to add the hidden input with the form name to your JSX form */}
 
         <input type="hidden" name="form-name" value="subscription" />
 
+            <div className="field half first">
+              <input type="checkbox" name="smallbox" id="email" />
+
+              <label>
+          Small Veg Box:
+          <input
+            name="isSmall"
+            type="checkbox"
+            checked={this.state.isSmall}
+            onChange={this.handleInputChange} />
+              </label>
+
+            </div>
+            <div className="field half">
+              <input type="checkbox" name="largebox" id="email" />
+
+        <label>
+          Large Veg Box:
+          <input
+            name="isLarge"
+            type="checkbox"
+            checked={this.state.isLarge}
+            onChange={this.handleInputChange} />
+        </label>
+
+            </div>
             <div className="field">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -60,14 +110,6 @@ class Main extends React.Component {
               <label htmlFor="message">Address for Delivery</label>
               <textarea name="message" id="message" rows="2"></textarea>
             </div>
-            <div className="field half first">
-              <input type="checkbox" name="smallbox" id="email" />
-              <label htmlFor="smallbox">Small Veg Box</label>
-            </div>
-            <div className="field half">
-              <input type="checkbox" name="largebox" id="email" />
-              <label htmlFor="largebox">Large Veg Box</label>
-            </div>
             <ul className="actions">
               <li>
                 <input type="submit" value="Subscribe" className="special" />
@@ -77,6 +119,14 @@ class Main extends React.Component {
               </li>
             </ul>
           </form>
+    );
+  }
+}
+
+ReactDOM.render(
+  <Reservation />,
+  document.getElementById('root')
+);
           {close}
         </article>
 
