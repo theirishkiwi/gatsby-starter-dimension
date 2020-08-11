@@ -72,7 +72,7 @@ export default class Main extends React.Component {
               <input type="checkbox" name="smallbox" id="email" />
 
               <label>
-          Small Veg Box:
+          Small Box:
           <input
             name="isSmall"
             type="checkbox"
@@ -85,7 +85,7 @@ export default class Main extends React.Component {
               <input type="checkbox" name="largebox" id="email" />
 
         <label>
-          Large Veg Box:
+          Large Box:
           <input
             name="isLarge"
             type="checkbox"
