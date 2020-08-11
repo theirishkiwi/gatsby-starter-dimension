@@ -97,9 +97,6 @@ class Main extends React.Component {
               </li>
             </ul>
           </form>
-    );
-  }
-}
           {close}
         </article>
 
