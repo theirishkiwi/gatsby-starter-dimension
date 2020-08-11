@@ -35,11 +35,14 @@ class Main extends React.Component {
           <p>
             We supply our Veg Club members with fresh organic fruit and vegetables all year round.
           </p>
-<form name="subscription" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
 
-  {/* You still need to add the hidden input with the form name to your JSX form */}
+        <h2 className="major">Veg Club Subscription</h2>
 
-  <input type="hidden" name="form-name" value="subscription" />
+        <form name="subscription" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+
+        {/* You still need to add the hidden input with the form name to your JSX form */}
+
+        <input type="hidden" name="form-name" value="subscription" />
 
             <div className="field half first">
               <label htmlFor="name">Name</label>
