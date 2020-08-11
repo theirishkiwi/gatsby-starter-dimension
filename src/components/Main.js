@@ -35,11 +35,11 @@ class Main extends React.Component {
           <p>
             We supply our Veg Club members with fresh organic fruit and vegetables all year round.
           </p>
-<form name="enquiries" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+<form name="subscription" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
 
   {/* You still need to add the hidden input with the form name to your JSX form */}
 
-  <input type="hidden" name="form-name" value="enquiries" />
+  <input type="hidden" name="form-name" value="subscription" />
 
             <div className="field half first">
               <label htmlFor="name">Name</label>
@@ -49,9 +49,13 @@ class Main extends React.Component {
               <label htmlFor="email">Email</label>
               <input type="text" name="email" id="email" />
             </div>
+            <div className="field half">
+              <label htmlFor="number">Contact Mobile mumber</label>
+              <input type="text" name="email" id="email" />
+            </div>
             <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
+              <label htmlFor="message">Address for Delivery</label>
+              <textarea name="message" id="message" rows="2"></textarea>
             </div>
             <ul className="actions">
               <li>
