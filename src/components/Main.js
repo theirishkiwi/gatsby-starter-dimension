@@ -61,12 +61,12 @@ class Main extends React.Component {
               <textarea name="message" id="message" rows="2"></textarea>
             </div>
             <div className="field half first">
-              <label htmlFor="number">Small Veg Box</label>
               <input type="checkbox" name="smallbox" id="email" />
+              <label htmlFor="smallbox">Small Veg Box</label>
             </div>
             <div className="field half">
-              <label htmlFor="number">Large Veg Box</label>
               <input type="checkbox" name="largebox" id="email" />
+              <label htmlFor="largebox">Large Veg Box</label>
             </div>
             <ul className="actions">
               <li>
