@@ -3,15 +3,8 @@ import React from 'react'
 import veg_club from '../images/veg_club.jpg'
 import faqs from '../images/faqs.jpg'
 import ourstory from '../images/ourstory.jpg'
-    
-class Main extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isSmall: false,
-      isLarge: false,
-      numberOfBoxes: 1
-    };
+      
+export default class Main extends React.Component {
   render() {
     let close = (
       <div
@@ -21,6 +14,15 @@ class Main extends React.Component {
         }}
       ></div>
     )
+    
+ class Main extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isSmall: false,
+      isLarge: false,
+      numberOfBoxes: 1
+    };
 
     this.handleInputChange = this.handleInputChange.bind(this);
   }
