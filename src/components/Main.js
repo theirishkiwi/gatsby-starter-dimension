@@ -60,6 +60,14 @@ class Main extends React.Component {
               <label htmlFor="message">Address for Delivery</label>
               <textarea name="message" id="message" rows="2"></textarea>
             </div>
+            <div className="field half first">
+              <label htmlFor="number">Small Veg Box</label>
+              <input type="checkbox" name="smallbox" id="email" />
+            </div>
+            <div className="field half">
+              <label htmlFor="number">Large Veg Box</label>
+              <input type="checkbox" name="largebox" id="email" />
+            </div>
             <ul className="actions">
               <li>
                 <input type="submit" value="Subscribe" className="special" />
