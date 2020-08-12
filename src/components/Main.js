@@ -45,11 +45,11 @@ class Main extends React.Component {
         <input type="hidden" name="form-name" value="subscription" />
 
             <div className="field half first">
-                   <label>Choose your Veg Box Size:</label>
+                   <label>Choose Veg Box Size:</label>
             </div>
             <div className="field half">
                    <select id = "myList">
-                     <option value="">- select from list -</option>
+                     <option value="">Choose Size</option>
                      <option value = "small">Small Veg Box</option>
                      <option value = "large">Large Veg Box</option>
                    </select>
