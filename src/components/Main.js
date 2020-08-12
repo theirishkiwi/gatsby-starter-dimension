@@ -73,12 +73,12 @@ class Main extends React.Component {
                 <legend>Veg Box Size</legend>
                 <p>
                   <label>
-                    <input type="radio" name="size" value="Large"> Yes
+                    <input type="radio" name="size" value="Large Veg Box" /> Large
                   </label>
                 </p>
                 <p>
                   <label>
-                    <input type="radio" name="size" value="Small"> No
+                    <input type="radio" name="size" value="Small Veg Box" /> Small
                   </label>
                 </p>
               </fieldset>
