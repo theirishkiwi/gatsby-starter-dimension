@@ -51,8 +51,8 @@ class Main extends React.Component {
             <div className="field half">
                    <select id = "myList">
                      <option value="" disabled="" selected="">- Select from List -</option>
-                     <option name="smallbox" value = "small">Small Veg Box - £10</option>
-                     <option name"largebox" value = "large">Large Veg Box - £15</option>
+                     <option name="smallbox" value="small">Small Veg Box - £10</option>
+                     <option name="largebox" value="large">Large Veg Box - £15</option>
                    </select>
             </div>
 
