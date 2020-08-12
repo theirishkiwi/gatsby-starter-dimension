@@ -56,6 +56,17 @@ class Main extends React.Component {
                    </select>
             </div>
 
+            <div className="field half first">
+                   <label>Delivery or Collection:</label>
+            </div>
+            <div className="field half">
+                   <select name="delivery-or-collection" required="">
+                     <option value="" disabled="" selected="">- Select from List -</option>
+                     <option name="delivery" value="Delivered">Delivery - £2</option>
+                     <option name="collect" value="Collection">Collection - Free</option>
+                   </select>
+            </div>
+
             <div className="field">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
