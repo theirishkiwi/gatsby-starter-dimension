@@ -48,11 +48,13 @@ class Main extends React.Component {
                    <label>Choose Veg Box Size:</label>
             </div>
             <div className="field half">
+            <fieldset>
                    <select id = "myList">
                      <option value="">- Select from List -</option>
                      <option value = "small">Small Veg Box - £10</option>
                      <option value = "large">Large Veg Box - £15</option>
                    </select>
+            </fieldset>
             </div>
 
             <div className="field">
