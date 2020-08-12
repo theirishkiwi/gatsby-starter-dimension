@@ -73,6 +73,10 @@ class Main extends React.Component {
               <label htmlFor="message">Address for Delivery</label>
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
+            <div className="field">
+              <label htmlFor="message">Comments</label>
+              <textarea name="message" id="message" rows="4"></textarea>
+            </div>
             <ul className="actions">
               <li>
                 <input type="submit" value="Subscribe" className="special" />
