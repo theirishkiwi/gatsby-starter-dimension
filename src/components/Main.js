@@ -65,7 +65,7 @@ class Main extends React.Component {
               <input type="email" name="email" id="email" />
             </div>
             <div className="field">
-              <label htmlFor="number">Contact Mobile mumber</label>
+              <label htmlFor="number">Contact Number</label>
               <input type="tel" name="number" id="number" />
             </div>
             <div className="field">
