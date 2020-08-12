@@ -49,10 +49,10 @@ class Main extends React.Component {
                    <label>Choose Veg Box Size:</label>
             </div>
             <div className="field half">
-                   <select name="vegboxsize" required="">
+                   <select name="veg-box-size" required="">
                      <option value="" disabled="" selected="">- Select from List -</option>
-                     <option name="smallbox" value="small">Small Veg Box - £10</option>
-                     <option name="largebox" value="large">Large Veg Box - £15</option>
+                     <option name="smallbox" value="Small Veg Box">Small Veg Box - £10</option>
+                     <option name="largebox" value="Large Veg Box">Large Veg Box - £15</option>
                    </select>
             </div>
 
