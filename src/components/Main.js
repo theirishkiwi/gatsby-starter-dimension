@@ -87,8 +87,8 @@ class Main extends React.Component {
               <input type="email" name="email" id="email" />
             </div>
             <div className="field">
-              <label htmlFor="number">Contact Number</label>
-              <input type="tel" name="number" id="number" />
+              <label htmlFor="tel">Contact Number</label>
+              <input type="tel" name="tel" id="tel" />
             </div>
             <div className="field">
               <label htmlFor="address">Address for Delivery</label>
