@@ -67,6 +67,17 @@ class Main extends React.Component {
                    </select>
             </div>
 
+           <div className="field half first">
+                   <label>Frequency:</label>
+            </div>
+            <div className="field half">
+                   <select name="frequency" required="">
+                     <option value="" disabled="" selected="">- Select from List -</option>
+                     <option name="weekly" value="Weekly Veg Membership">Weekly Veg Membership</option>
+                     <option name="fortnightly" value="Fortnightly Veg Membership">Fortnightly Veg Membership</option>
+                   </select>
+            </div>
+
             <div className="field">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
