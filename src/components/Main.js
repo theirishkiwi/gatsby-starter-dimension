@@ -38,23 +38,22 @@ class Main extends React.Component {
 
         <h3 className="major">Veg Club Subscription</h3>
 
-        <form name="subscription" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+      <form name="subscription" method="post" data-netlify="true" data-netlify-honeypot="bot-field">  
 
-        {/* You still need to add the hidden input with the form name to your JSX form */}
+        {/* You need to add the hidden input with the form name to your JSX form */}
 
-        <input type="hidden" name="form-name" value="subscription" />
+            <input type="hidden" name="bot-field" />  
+            <input type="hidden" name="form-name" value="subscription" />
 
             <div className="field half first">
                    <label>Choose Veg Box Size:</label>
             </div>
             <div className="field half">
-            <fieldset>
                    <select id = "myList">
                      <option value="">- Select from List -</option>
                      <option value = "small">Small Veg Box - £10</option>
                      <option value = "large">Large Veg Box - £15</option>
                    </select>
-            </fieldset>
             </div>
 
             <div className="field">
@@ -67,15 +66,15 @@ class Main extends React.Component {
             </div>
             <div className="field">
               <label htmlFor="number">Contact Mobile mumber</label>
-              <input type="text" name="email" id="email" />
+              <input type="text" name="number" id="number" />
             </div>
             <div className="field">
               <label htmlFor="message">Address for Delivery</label>
-              <textarea name="message" id="message" rows="4"></textarea>
+              <textarea name="address" id="address" rows="4"></textarea>
             </div>
             <div className="field">
               <label htmlFor="message">Comments/ Special Requests</label>
-              <textarea name="message" id="message" rows="4"></textarea>
+              <textarea name="comment" id="comment" rows="4"></textarea>
             </div>
             <ul className="actions">
               <li>
