@@ -44,44 +44,17 @@ class Main extends React.Component {
 
         <input type="hidden" name="form-name" value="subscription" />
 
-            <div className="field half first">
-              <input type="radio" name="smallbox" id="email" />
+          <div className="field half first">
+            <label>
+              <input type="radio" name="size" value="Large Veg Box" /> Large Veg Box
+            </label>
+          </div>
 
-          <label>
-          Small Box:
-          <input
-            name="isSmall"
-            type="radio"
-             />
-          </label>
-
-            </div>
-            <div className="field half">
-              <input type="radio" name="largebox" id="email" />
-
-        <label>
-          Large Box:
-          <input
-            name="isLarge"
-            type="radio"
-         />
-        </label>
-
-            </div>
-
-            <fieldset>
-                <legend>Veg Box Size</legend>
-                <p>
-                  <label>
-                    <input type="radio" name="size" value="Large Veg Box" /> Large
-                  </label>
-                </p>
-                <p>
-                  <label>
-                    <input type="radio" name="size" value="Small Veg Box" /> Small
-                  </label>
-                </p>
-              </fieldset>
+          <div className="field half">
+            <label>
+              <input type="radio" name="size" value="Small Veg Box" /> Small Veg Box
+            </label>
+          </div>
 
             <div className="field">
               <label htmlFor="name">Name</label>
