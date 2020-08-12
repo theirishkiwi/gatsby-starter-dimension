@@ -49,7 +49,7 @@ class Main extends React.Component {
                    <label>Choose Veg Box Size:</label>
             </div>
             <div className="field half">
-                   <select name="veg-box-size" required="">
+                   <select name="size" required="">
                      <option value="" disabled="" selected="">- Select from List -</option>
                      <option name="smallbox" value="Small Veg Box">Small Veg Box - £10</option>
                      <option name="largebox" value="Large Veg Box">Large Veg Box - £15</option>
@@ -60,10 +60,10 @@ class Main extends React.Component {
                    <label>Delivery or Collection:</label>
             </div>
             <div className="field half">
-                   <select name="delivery-or-collection" required="">
+                   <select name="method" required="">
                      <option value="" disabled="" selected="">- Select from List -</option>
-                     <option name="delivery" value="Delivered">Delivery - £2</option>
-                     <option name="collect" value="Collection">Collection - Free</option>
+                     <option name="delivery" value="Delivered - £2">Delivery - £2</option>
+                     <option name="collect" value="Collected - Free">Collection - Free</option>
                    </select>
             </div>
 
