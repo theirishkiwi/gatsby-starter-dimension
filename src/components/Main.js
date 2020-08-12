@@ -33,6 +33,8 @@ class Main extends React.Component {
             <img src={veg_club} alt="" />
           </span>
           <p>
+          </p>
+          <p>
             We supply our Veg Club members with fresh organic fruit and vegetables all year round.
           </p>
 
