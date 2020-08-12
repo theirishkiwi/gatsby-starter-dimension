@@ -62,11 +62,11 @@ class Main extends React.Component {
             </div>
             <div className="field">
               <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
+              <input type="email" name="email" id="email" />
             </div>
             <div className="field">
               <label htmlFor="number">Contact Mobile mumber</label>
-              <input type="text" name="number" id="number" />
+              <input type="tel" name="number" id="number" />
             </div>
             <div className="field">
               <label htmlFor="address">Address for Delivery</label>
