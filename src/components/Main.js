@@ -49,7 +49,7 @@ class Main extends React.Component {
             </div>
             <div className="field half">
                    <select id = "myList">
-                     <option value="">Choose Size</option>
+                     <option value="">- Select from List -</option>
                      <option value = "small">Small Veg Box</option>
                      <option value = "large">Large Veg Box</option>
                    </select>
