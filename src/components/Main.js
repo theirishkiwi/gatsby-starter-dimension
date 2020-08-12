@@ -38,7 +38,7 @@ class Main extends React.Component {
 
         <h3 className="major">Veg Club Subscription</h3>
 
-      <form name="subscription" method="post" data-netlify="true" data-netlify-honeypot="bot-field">  
+      <form name="subscription" method="post" data-netlify="true" data-netlify-recaptcha="true" data-netlify-honeypot="bot-field">  
 
         {/* You need to add the hidden input with the form name to your JSX form */}
 
