@@ -45,7 +45,7 @@ class Main extends React.Component {
         <input type="hidden" name="form-name" value="subscription" />
 
             <div className="field half first">
-                   <label>Select Size from list:</label>
+                   <label>Choose your Veg Box Size:</label>
             </div>
             <div className="field half">
                    <select id = "myList">
