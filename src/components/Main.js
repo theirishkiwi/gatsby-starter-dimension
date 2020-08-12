@@ -44,17 +44,18 @@ class Main extends React.Component {
 
         <input type="hidden" name="form-name" value="subscription" />
 
-          <div className="field half first">
-            <label>
-              <input type="radio" name="size" value="Large Veg Box" /> Large Veg Box
-            </label>
-          </div>
-
-          <div className="field half">
-            <label>
-              <input type="radio" name="size" value="Small Veg Box" /> Small Veg Box
-            </label>
-          </div>
+            <div className="field">
+             <fieldset>
+                <legend>Select Veg Box Size</legend>
+                <p>
+                   <label>Veg Box Size:</label>
+                   <select id = "myList">
+                     <option value = "small">Small</option>
+                     <option value = "large">Large</option>
+                   </select>
+                </p>
+            </fieldset>
+            </div>
 
             <div className="field">
               <label htmlFor="name">Name</label>
