@@ -141,6 +141,7 @@ Our subscription service is very flexible and you can pause as required.
           <span className="image main">
             <img src={faqs} alt="" />
           </span>
+<p></p>
           <h3>
 Why are you using the ‘no dig method’?</h3>
 <p>
