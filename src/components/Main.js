@@ -141,9 +141,9 @@ Our subscription service is very flexible and you can pause as required.
           <span className="image main">
             <img src={faqs} alt="" />
           </span>
-          <p>
-###Why are you using the ‘no dig method’? 
-
+          <h3>
+Why are you using the ‘no dig method’?</3>
+<p>
 It is one of the quickest ways to prepare soil to grow vegetables. It is an organic method of growing vegetables without the need to manually turn the soil between vegetable crops are has these added benefits:
 
 Saves time - as no diggng is required.
@@ -160,9 +160,9 @@ Intersowing and interplanting which reduces the overlap time between crops.This 
 
 Overall, it is a simple method with many benefits. 
 </p>
+<3>
+Why support us?</3>
 <p>
-###Why support us?
-
 Supporting by buying local
 
 Reducing plastic waste
@@ -192,7 +192,9 @@ We prefer to worth with nature rather than against it.
           <span className="image main">
             <img src={ourstory} alt="" />
           </span>
-          <p>
+<p>
+</p>
+<p>
 Having grown up in Northern Ireland, in the country with lots of green space, it has always baffled me why we import 90% of our food! The amount of plastic used when buying vegetables at supermarkets, the amount of food that is wasted and buying tasteless vegetables, being a few of my frustrations. The best food can be grown locally so that within a matter of minutes you can have vegetables from the field to your fork! 
 
 Having grown food for years in a small garden at home, I enjoyed having fresh produce always on hand. Following a few conversations in the cockpit, we discussed the possibility of growing vegetables on a larger scale using the ‘no dig method’. An opportunity arose to grow vegetables on a plot of land, on a farm just outside Moneyreagh and Picked Organic was born!
