@@ -44,23 +44,14 @@ We have two sizes of our seasonal veg boxes small and large.
 
 The pictures shown are only examples of seasonal veg as this will vary with each season and what has been freshly picked. 
 
-Small box is currently $10 and large box is $15.
+A small box is £10 and large box is currently £15.
 
 We have the following options for subscriptions: weekly, fortnighly and monthly. 
 
-Our subscription service is very flexible e.g. you can pause as required. 
+Our subscription service is very flexible and you can pause as required. 
 
-The reason we are launching our subscription service is so that we can cater for you on a regular basis and plan ahead so that we have fresh seasonal veg for you. 
 
-We have two sizes of our seasonal veg boxes small and large. 
 
-The pictures shown are only examples of seasonal veg as this will vary with each season and what has been freshly picked. 
-
-Small box is currently $10 and large box is $15.
-
-We have the following options for subscriptions: weekly, fortnighly and monthly. 
-
-Our subscription service is very flexible e.g. you can pause as required.
           </p>
 
         <h3 className="major">Veg Club Subscription</h3>
@@ -102,6 +93,8 @@ Our subscription service is very flexible e.g. you can pause as required.
                      <option value="" disabled="" selected="">- Select from List -</option>
                      <option name="weekly" value="Weekly Veg Membership">Weekly Veg Membership</option>
                      <option name="fortnightly" value="Fortnightly Veg Membership">Fortnightly Veg Membership</option>
+
+<option name="Monthly" value="Monthly Veg Membership">Monthly Veg Membership</option>
                    </select>
             </div>
 
