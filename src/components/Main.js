@@ -160,8 +160,8 @@ Intersowing and interplanting which reduces the overlap time between crops.This 
 
 Overall, it is a simple method with many benefits. 
 </p>
-<3>
-Why support us?</3>
+<h3>
+Why support us?</h3>
 <p>
 Supporting by buying local
 
