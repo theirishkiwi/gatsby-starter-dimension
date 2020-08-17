@@ -149,19 +149,41 @@ Our subscription service is very flexible e.g. you can pause as required.
             <img src={faqs} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+###Why are you using the ‘no dig method’? 
+
+It is one of the quickest ways to prepare soil to grow vegetables. It is an organic method of growing vegetables without the need to manually turn the soil between vegetable crops are has these added benefits:
+
+Saves time - as no diggng is required.
+
+Less weeds - By adding a protective barrier before you place your compost, this stops the weeds coming through which over the long term saves time and helps to protect your vegetables. 
+
+More fertile soil - which removes the need for artificual fertilisers.
+
+Retaining helpful soil organisms as cultivation is reduced. 
+
+Grow more food with little effort.
+
+Intersowing and interplanting which reduces the overlap time between crops.This helps to protect crops against pests and allows the plant to thrive. 
+
+Overall, it is a simple method with many benefits. 
+</p>
+<p>
+###Why support us?
+
+Supporting by buying local
+
+Reducing plastic waste
+
+Minimising carbon footprint by opting for seasonal vegetables
+
+Buying vegetables free from pesticides and chemicals
+
+Experiencing a taste sensation by buying vegetables that are picked when ripe and in season 
+
+We prefer to worth with nature rather than against it.
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            
           </p>
           {close}
         </article>
