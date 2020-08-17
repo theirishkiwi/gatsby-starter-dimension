@@ -142,7 +142,7 @@ Our subscription service is very flexible and you can pause as required.
             <img src={faqs} alt="" />
           </span>
           <h3>
-Why are you using the ‘no dig method’?</3>
+Why are you using the ‘no dig method’?</h3>
 <p>
 It is one of the quickest ways to prepare soil to grow vegetables. It is an organic method of growing vegetables without the need to manually turn the soil between vegetable crops are has these added benefits:
 
