@@ -178,13 +178,18 @@ Our subscription service is very flexible e.g. you can pause as required.
             <img src={ourstory} alt="" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+Having grown up in Northern Ireland, in the country with lots of green space, it has always baffled me why we import 90% of our food! The amount of plastic used when buying vegetables at supermarkets, the amount of food that is wasted and buying tasteless vegetables, being a few of my frustrations. The best food can be grown locally so that within a matter of minutes you can have vegetables from the field to your fork! 
+
+Having grown food for years in a small garden at home, I enjoyed having fresh produce always on hand. Following a few conversations in the cockpit, we discussed the possibility of growing vegetables on a larger scale using the ‘no dig method’. An opportunity arose to grow vegetables on a plot of land, on a farm just outside Moneyreagh and Picked Organic was born!
+
+With every new adventure there was excitement and we had all these wonderful ideas of what we wanted to achieve. We knew things weren’t going to be plain sailing however, it didn’t take long to realise that we had drastically underestimated the amount of time and work involved to get things started.
+
+Our first challenge was the land. The soil was full of rocks and clay and was prone to flooding. It took time to prepare the land and to address these challenges. Beforelong, we had our first veg beds made and plants starting to grow. 
+
+We increased the number of veg beds and constructed a pollytunnel to optimise our growing space and to increase the variety of vegetables we could grow. 
+
+As an established market we provide fresh vegetables to a number of local restaurants and greengrocers. Throughout lockdown, with the increased demand for locally produced vegetables it was the right time for us to launch out veg boxes.
+
           </p>
           {close}
         </article>
