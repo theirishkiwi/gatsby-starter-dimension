@@ -36,6 +36,31 @@ class Main extends React.Component {
           </p>
           <p>
             We supply our Veg Club members with fresh organic fruit and vegetables all year round.
+
+
+The reason we are launching our subscription service is so that we can cater for you on a regular basis and plan ahead so that we have fresh seasonal veg for you. 
+
+We have two sizes of our seasonal veg boxes small and large. 
+
+The pictures shown are only examples of seasonal veg as this will vary with each season and what has been freshly picked. 
+
+Small box is currently $10 and large box is $15.
+
+We have the following options for subscriptions: weekly, fortnighly and monthly. 
+
+Our subscription service is very flexible e.g. you can pause as required. 
+
+The reason we are launching our subscription service is so that we can cater for you on a regular basis and plan ahead so that we have fresh seasonal veg for you. 
+
+We have two sizes of our seasonal veg boxes small and large. 
+
+The pictures shown are only examples of seasonal veg as this will vary with each season and what has been freshly picked. 
+
+Small box is currently $10 and large box is $15.
+
+We have the following options for subscriptions: weekly, fortnighly and monthly. 
+
+Our subscription service is very flexible e.g. you can pause as required.
           </p>
 
         <h3 className="major">Veg Club Subscription</h3>
