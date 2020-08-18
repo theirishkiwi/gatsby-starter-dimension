@@ -109,7 +109,7 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
               Tick to accept terms and conditions
             </legend>
             <sub>
-              Terms and Conditions:<br>
+              Terms and Conditions:
               Terms go here...
             </sub>
 
