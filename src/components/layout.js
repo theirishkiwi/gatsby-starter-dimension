@@ -41,8 +41,8 @@ const Layout = ({ children, location }) => {
           <Helmet
             title={data.site.siteMetadata.title}
             meta={[
-              { name: 'description', content: 'Picked Organic Market Garden' },
-              { name: 'keywords', content: 'organic, market garden, vegetables, veg boxes, plastic free, zero waste' },
+              { name: 'description', content: 'Picked Organic Market Garden, working with nature. Experience a taste sensation by buying vegetables that are picked when ripe and in season'},
+              { name: 'keywords', content: 'buy local, pesticide and chemical free, organic, market garden, vegetables, veg box, plastic free, zero waste, seasonal vegetables, minimise carbon footprint'},
             ]}
           >
             <html lang="en" />
