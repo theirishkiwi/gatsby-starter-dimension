@@ -130,7 +130,7 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
           <h3>Why are you using the ‘no dig method’?</h3>
 
           <p>
-It is one of the quickest ways to prepare the soil to grow vegetables. It is an organic method of growing vegetables without the need to manually turn the soil between vegetable crops are has these added benefits:
+It is one of the quickest ways to prepare the soil to grow vegetables. It is an organic method of growing vegetables without the need to manually turn the soil between vegetable crops and has these added benefits:
 <ul>
   <li>Saves time - as no digging is required.</li>
   <li>Fewer weeds - By adding a protective barrier before you place your compost, this stops the weeds coming through which over the long term saves time and helps to protect your vegetables.</li> 
@@ -148,8 +148,8 @@ Overall, it is a simple method with many benefits.
 Supporting by buying local.
 Reducing plastic waste.
 Minimising carbon footprint by opting for seasonal vegetables.
-Buying vegetables free from pesticides and chemicals.
-Experiencing a taste sensation by buying vegetables that are picked when ripe and in season. 
+Buy vegetables free from pesticides and chemicals.
+Experience a taste sensation by buying vegetables that are picked when ripe and in season. 
 We prefer to work with nature rather than against it.
          </p>
 
