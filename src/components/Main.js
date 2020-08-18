@@ -132,13 +132,13 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
           <p>
 It is one of the quickest ways to prepare the soil to grow vegetables. It is an organic method of growing vegetables without the need to manually turn the soil between vegetable crops are has these added benefits:
 <ul>
-  <li>Saves time - as no digging is required.</ul>
-  <li>Fewer weeds - By adding a protective barrier before you place your compost, this stops the weeds coming through which over the long term saves time and helps to protect your vegetables.</ul> 
-  <li>More fertile soil - which removes the need for artificial fertilisers.</ul>
-  <li>Retaining helpful soil organisms as cultivation is reduced.</ul> 
-  <li>Grow more food with little effort.</ul>
-  <li>Intersowing and interplanting which reduces the overlap time between crops. This helps to protect crops against pests and allows the plant to thrive.</ul>
-</li>
+  <li>Saves time - as no digging is required.</li>
+  <li>Fewer weeds - By adding a protective barrier before you place your compost, this stops the weeds coming through which over the long term saves time and helps to protect your vegetables.</li> 
+  <li>More fertile soil - which removes the need for artificial fertilisers.</li>
+  <li>Retaining helpful soil organisms as cultivation is reduced.</li> 
+  <li>Grow more food with little effort.</li>
+  <li>Intersowing and interplanting which reduces the overlap time between crops. This helps to protect crops against pests and allows the plant to thrive.</li>
+</lu>
 Overall, it is a simple method with many benefits.
        </p>
 
