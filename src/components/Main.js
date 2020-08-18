@@ -129,10 +129,11 @@ We have the following options for subscriptions: weekly, fortnighly and monthly.
           <span className="image main">
             <img src={faqs} alt="" />
           </span>
-<p></p>
-          <h3>
-Why are you using the ‘no dig method’?</h3>
-<p>
+          <p></p>
+
+          <h3>Why are you using the ‘no dig method’?</h3>
+
+          <p>
 It is one of the quickest ways to prepare soil to grow vegetables. It is an organic method of growing vegetables without the need to manually turn the soil between vegetable crops are has these added benefits:
 
 Saves time - as no diggng is required.
@@ -148,10 +149,11 @@ Grow more food with little effort.
 Intersowing and interplanting which reduces the overlap time between crops.This helps to protect crops against pests and allows the plant to thrive. 
 
 Overall, it is a simple method with many benefits. 
-</p>
-<h3>
-Why support us?</h3>
-<p>
+       </p>
+
+       <h3>Why support us?</h3>
+
+       <p>
 Supporting by buying local
 
 Reducing plastic waste
@@ -163,10 +165,11 @@ Buying vegetables free from pesticides and chemicals
 Experiencing a taste sensation by buying vegetables that are picked when ripe and in season 
 
 We prefer to worth with nature rather than against it.
-          </p>
-          <p>
-            
-          </p>
+         </p>
+
+         <p>
+
+         </p>
           {close}
         </article>
 
@@ -212,6 +215,10 @@ As an established market we provide fresh vegetables to a number of local restau
 <form name="enquiries" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
 
   {/* You still need to add the hidden input with the form name to your JSX form */}
+
+  <p class="hidden">
+    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+  </p>
 
   <input type="hidden" name="form-name" value="enquiries" />
 
