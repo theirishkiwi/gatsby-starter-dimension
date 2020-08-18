@@ -40,10 +40,10 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
          </p>
 
 
-<form method="post" action="https://sendfox.com/form/vm5kxm/19kxqx" class="sendfox-form" id="19kxqx" data-async="true" data-recaptcha="false"
+<form method="post" action="https://sendfox.com/form/vm5kxm/19kxqx" class="sendfox-form" id="19kxqx" data-async="true" data-recaptcha="false" data-netlify="true" data-netlify-honeypot="bot-field">
 
 
-data-netlify="true" data-netlify-honeypot="bot-field">
+
 
 <p><input type="text" placeholder="First Name" name="first_name" required /></p>
 
