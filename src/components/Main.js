@@ -38,6 +38,32 @@ We supply our Veg Club members with fresh organic fruit and vegetables all year 
 We have two sizes of our seasonal veg boxes small and large. The pictures shown are only examples of seasonal veg as this will vary with each season and what has been freshly picked. A small box is £10 and the large box is currently £15.
 We have the following options for subscriptions: weekly, fortnightly and monthly. Our subscription service is flexible f you wish to pause, downscale or upscale your subscription please get in touch via email and we can make amendments.
          </p>
+
+
+<form method="post" action="https://sendfox.com/form/vm5kxm/19kxqx" class="sendfox-form" id="19kxqx" data-async="true" data-recaptcha="false"
+
+
+data-netlify="true" data-netlify-honeypot="bot-field">
+
+<p><input type="text" placeholder="First Name" name="first_name" required /></p>
+
+<p><input type="email" placeholder="Email" name="email" required /></p>
+
+<p><label><input type="checkbox" name="gdpr" value="1" required /> I agree to receive email updates and promotions.</label></p>
+
+<!-- no botz please -->
+
+<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="a_password" tabindex="-1" value="" autocomplete="off" /></div>
+
+<p><button type="submit">Subscribe!</button></p>
+
+</form>
+
+<script src="https://sendfox.com/js/form.js"></script>
+
+			
+
+
         <h3 className="major">Veg Club Subscription</h3>
 
       <form name="subscription" method="post" data-netlify="true" data-netlify-honeypot="bot-field">  
