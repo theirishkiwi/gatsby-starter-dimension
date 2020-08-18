@@ -44,10 +44,6 @@ We have the following options for subscriptions: weekly, fortnighly and monthly.
 
         {/* You need to add the hidden input with the form name to your JSX form */}
 
-        <p class="hidden">
-          <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-        </p>
-
             <input type="hidden" name="bot-field" />  
             <input type="hidden" name="form-name" value="subscription" />
 
@@ -216,10 +212,7 @@ As an established market we provide fresh vegetables to a number of local restau
 
   {/* You still need to add the hidden input with the form name to your JSX form */}
 
-  <p class="hidden">
-    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-  </p>
-
+  <input type="hidden" name="bot-field" /> 
   <input type="hidden" name="form-name" value="enquiries" />
 
             <div className="field half first">
