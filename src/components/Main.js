@@ -32,33 +32,21 @@ class Main extends React.Component {
           <span className="image main">
             <img src={veg_club} alt="" />
           </span>
+          <p></p>
           <p>
-          </p>
-          <p>
-            We supply our Veg Club members with fresh organic fruit and vegetables all year round.
-
-
-The reason we are launching our subscription service is so that we can cater for you on a regular basis and plan ahead so that we have fresh seasonal veg for you. 
-
-We have two sizes of our seasonal veg boxes small and large. 
-
-The pictures shown are only examples of seasonal veg as this will vary with each season and what has been freshly picked. 
-
-A small box is £10 and large box is currently £15.
-
-We have the following options for subscriptions: weekly, fortnighly and monthly. 
-
-Our subscription service is very flexible and you can pause as required. 
-
-
-
-          </p>
-
+We supply our Veg Club members with fresh organic fruit and vegetables all year round. The reason we are launching our subscription service is so that we can cater for you on a regular basis and plan ahead so that we have fresh seasonal veg for you. 
+We have two sizes of our seasonal veg boxes small and large. The pictures shown are only examples of seasonal veg as this will vary with each season and what has been freshly picked. A small box is £10 and large box is currently £15.
+We have the following options for subscriptions: weekly, fortnighly and monthly. Our subscription service is very flexible and you can pause as required. 
+         </p>
         <h3 className="major">Veg Club Subscription</h3>
 
       <form name="subscription" method="post" data-netlify="true" data-netlify-honeypot="bot-field">  
 
         {/* You need to add the hidden input with the form name to your JSX form */}
+
+        <p class="hidden">
+          <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+        </p>
 
             <input type="hidden" name="bot-field" />  
             <input type="hidden" name="form-name" value="subscription" />
