@@ -30,13 +30,13 @@ class Main extends React.Component {
         >
           <h2 className="major">Veg Club</h2>
           <span className="image main">
-            <img src={veg_club} alt="" />
+            <img src={veg_club} alt="Large veg box" />
           </span>
           <p></p>
           <p>
-We supply our Veg Club members with fresh organic fruit and vegetables all year round. The reason we are launching our subscription service is so that we can cater for you on a regular basis and plan ahead so that we have fresh seasonal veg for you. 
-We have two sizes of our seasonal veg boxes small and large. The pictures shown are only examples of seasonal veg as this will vary with each season and what has been freshly picked. A small box is £10 and large box is currently £15.
-We have the following options for subscriptions: weekly, fortnighly and monthly. Our subscription service is very flexible and you can pause as required. 
+We supply our Veg Club members with fresh organic fruit and vegetables all year round. The reason we are launching our subscription service is so that we can cater for you regularly and plan ahead so that we have fresh seasonal veg for you all year round. 
+We have two sizes of our seasonal veg boxes small and large. The pictures shown are only examples of seasonal veg as this will vary with each season and what has been freshly picked. A small box is £10 and the large box is currently £15.
+We have the following options for subscriptions: weekly, fortnightly and monthly. Our subscription service is flexible f you wish to pause, downscale or upscale your subscription please get in touch via email and we can make amendments.
          </p>
         <h3 className="major">Veg Club Subscription</h3>
 
@@ -123,44 +123,34 @@ We have the following options for subscriptions: weekly, fortnighly and monthly.
         >
           <h2 className="major">FAQ's</h2>
           <span className="image main">
-            <img src={faqs} alt="" />
+            <img src={faqs} alt="Cornflower in wild flower meadow" />
           </span>
           <p></p>
 
           <h3>Why are you using the ‘no dig method’?</h3>
 
           <p>
-It is one of the quickest ways to prepare soil to grow vegetables. It is an organic method of growing vegetables without the need to manually turn the soil between vegetable crops are has these added benefits:
-
-Saves time - as no diggng is required.
-
-Less weeds - By adding a protective barrier before you place your compost, this stops the weeds coming through which over the long term saves time and helps to protect your vegetables. 
-
-More fertile soil - which removes the need for artificual fertilisers.
-
-Retaining helpful soil organisms as cultivation is reduced. 
-
-Grow more food with little effort.
-
-Intersowing and interplanting which reduces the overlap time between crops.This helps to protect crops against pests and allows the plant to thrive. 
-
-Overall, it is a simple method with many benefits. 
+It is one of the quickest ways to prepare the soil to grow vegetables. It is an organic method of growing vegetables without the need to manually turn the soil between vegetable crops are has these added benefits:
+<ul>
+  <li>Saves time - as no digging is required.</ul>
+  <li>Fewer weeds - By adding a protective barrier before you place your compost, this stops the weeds coming through which over the long term saves time and helps to protect your vegetables.</ul> 
+  <li>More fertile soil - which removes the need for artificial fertilisers.</ul>
+  <li>Retaining helpful soil organisms as cultivation is reduced.</ul> 
+  <li>Grow more food with little effort.</ul>
+  <li>Intersowing and interplanting which reduces the overlap time between crops. This helps to protect crops against pests and allows the plant to thrive.</ul>
+</li>
+Overall, it is a simple method with many benefits.
        </p>
 
        <h3>Why support us?</h3>
 
        <p>
-Supporting by buying local
-
-Reducing plastic waste
-
-Minimising carbon footprint by opting for seasonal vegetables
-
-Buying vegetables free from pesticides and chemicals
-
-Experiencing a taste sensation by buying vegetables that are picked when ripe and in season 
-
-We prefer to worth with nature rather than against it.
+Supporting by buying local.
+Reducing plastic waste.
+Minimising carbon footprint by opting for seasonal vegetables.
+Buying vegetables free from pesticides and chemicals.
+Experiencing a taste sensation by buying vegetables that are picked when ripe and in season. 
+We prefer to work with nature rather than against it.
          </p>
 
          <p>
@@ -178,23 +168,22 @@ We prefer to worth with nature rather than against it.
         >
           <h2 className="major">Our Story</h2>
           <span className="image main">
-            <img src={ourstory} alt="" />
+            <img src={ourstory} alt="Family helping at the farm" />
           </span>
 <p>
 </p>
 <p>
 Having grown up in Northern Ireland, in the country with lots of green space, it has always baffled me why we import 90% of our food! The amount of plastic used when buying vegetables at supermarkets, the amount of food that is wasted and buying tasteless vegetables, being a few of my frustrations. The best food can be grown locally so that within a matter of minutes you can have vegetables from the field to your fork! 
 
-Having grown food for years in a small garden at home, I enjoyed having fresh produce always on hand. Following a few conversations in the cockpit, we discussed the possibility of growing vegetables on a larger scale using the ‘no dig method’. An opportunity arose to grow vegetables on a plot of land, on a farm just outside Moneyreagh and Picked Organic was born!
+Having grown food for years in a small garden at home, I enjoyed having fresh produce always on hand. Following a few conversations in the cockpit, we discussed the possibility of growing vegetables on a larger scale using the ‘no-dig method’. An opportunity arose to grow vegetables on a plot of land, on a farm just outside Moneyreagh and Picked Organic was born!
 
-With every new adventure there was excitement and we had all these wonderful ideas of what we wanted to achieve. We knew things weren’t going to be plain sailing however, it didn’t take long to realise that we had drastically underestimated the amount of time and work involved to get things started.
+With every new adventure, there was excitement and we had all these wonderful ideas of what we wanted to achieve. We knew things weren’t going to be plain sailing however, it didn’t take long to realise that we had drastically underestimated the amount of time and work involved to get things started.
 
-Our first challenge was the land. The soil was full of rocks and clay and was prone to flooding. It took time to prepare the land and to address these challenges. Beforelong, we had our first veg beds made and plants starting to grow. 
+Our first challenge was the land. The soil was full of rocks and clay and was prone to flooding. It took time to prepare the land and to address these challenges. Before long, we had our first veg beds made and plants starting to grow. 
 
-We increased the number of veg beds and constructed a pollytunnel to optimise our growing space and to increase the variety of vegetables we could grow. 
+We increased the number of veg beds and constructed a polytunnel to optimise our growing space and to increase the variety of vegetables we could grow. 
 
-As an established market we provide fresh vegetables to a number of local restaurants and greengrocers. Throughout lockdown, with the increased demand for locally produced vegetables it was the right time for us to launch out veg boxes.
-
+As an established market, we provide fresh vegetables to several local restaurants and greengrocers. Throughout lockdown, with the increased demand for locally produced vegetables, it was the right time for us to launch out veg boxes.
           </p>
           {close}
         </article>
