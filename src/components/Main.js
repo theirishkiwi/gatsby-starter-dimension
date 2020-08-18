@@ -104,18 +104,18 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
             </div>
             <ul className="actions">
               <li>
-
-            <legend class="title">
-              By subscribing you are accepting the below terms and conditions
-            </legend>
-            <sub>
-              Terms and Conditions:
-            </sub>
-            <p class="terms">  
-              Terms go here...
-            </p>   
-              <br/>
-
+            <div>
+              <legend class="title">
+                By subscribing you are accepting the below terms and conditions
+              </legend>
+              <sub>
+                Terms and Conditions:
+              </sub>
+              <p class="terms">  
+                Terms go here...
+              </p>   
+                <br/>
+            </div>
                 <input type="submit" value="Subscribe" className="special" />
               </li>
               <li>
