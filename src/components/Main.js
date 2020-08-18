@@ -59,7 +59,7 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
 
 </form>
 
-<script src="https://sendfox.com/js/form.js"></script>
+
 
 			
 
