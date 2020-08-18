@@ -109,11 +109,10 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
               Tick to accept terms and conditions
             </legend>
             <sub>
-              Terms and Conditions:
+              Terms and Conditions:<br>
+              Terms go here...
             </sub>
-            <p>
-            terms go here...
-            </p>
+
                 <input type="submit" value="Subscribe" className="special" />
               </li>
               <li>
