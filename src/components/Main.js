@@ -138,7 +138,7 @@ It is one of the quickest ways to prepare the soil to grow vegetables. It is an 
   <li>Retaining helpful soil organisms as cultivation is reduced.</li> 
   <li>Grow more food with little effort.</li>
   <li>Intersowing and interplanting which reduces the overlap time between crops. This helps to protect crops against pests and allows the plant to thrive.</li>
-</lu>
+</ul>
 Overall, it is a simple method with many benefits.
        </p>
 
