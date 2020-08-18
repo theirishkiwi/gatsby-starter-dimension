@@ -51,7 +51,7 @@ data-netlify="true" data-netlify-honeypot="bot-field">
 
 <p><label><input type="checkbox" name="gdpr" value="1" required /> I agree to receive email updates and promotions.</label></p>
 
-<!-- no botz please -->
+{/*  no botz please */}
 
 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="a_password" tabindex="-1" value="" autocomplete="off" /></div>
 
