@@ -37,23 +37,11 @@ class Main extends React.Component {
 We supply our Veg Club members with fresh organic fruit and vegetables all year round. The reason we are launching our subscription service is so that we can cater for you regularly and plan ahead so that we have fresh seasonal veg for you all year round. 
 We have two sizes of our seasonal veg boxes small and large. The pictures shown are only examples of seasonal veg as this will vary with each season and what has been freshly picked. A small box is £10 and the large box is currently £15.
 We have the following options for subscriptions: weekly, fortnightly and monthly. Our subscription service is flexible f you wish to pause, downscale or upscale your subscription please get in touch via email and we can make amendments.
-         </p>
-
-<form method="post" action="https://sendfox.com/form/vm5kxm/19kxqx" class="sendfox-form" id="19kxqx" data-async="true" data-recaptcha="false">
-<p><input type="text" placeholder="First Name" name="first_name" required /></p>
-<p><input type="email" placeholder="Email" name="email" required /></p>
-<p><label><input type="radio" name="gdpr" value="1" required /> I agree to receive email updates.</label></p>
-
-{/* -- no botz please */}
-
-<div style={{position: 'absolute', left: '-5000px',}} aria-hidden="true"><input type="text" name="a_password" tabindex="-1" value="" autocomplete="off" /></div>
-<p><button type="submit">Subscribe!</button></p>
-</form>
-<script src="https://sendfox.com/js/form.js"></script>	
+         </p>	
 
         <h3 className="major">Veg Club Subscription</h3>
 
-      <form name="subscription" method="post" data-netlify="true" data-netlify-honeypot="bot-field">  
+      <form name="subscription" method="post" action="https://sendfox.com/form/vm5kxm/19kxqx" class="sendfox-form" id="19kxqx" data-async="true" data-recaptcha="false" data-netlify="true" data-netlify-honeypot="bot-field">  
 
         {/* You need to add the hidden input with the form name to your JSX form */}
 
@@ -118,6 +106,21 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
             <ul className="actions">
               <li>
             <div>
+
+            <div className="field half first">
+                   <label>I consent to receive emails</label>
+            </div>
+            <div className="field half">
+                   <select name="method" required="">
+                     <option value="" disabled="" selected="">- Select from List -</option>
+                     <option name="gdpr" value="Yes" required>Yes</option>
+                   </select>
+            </div>
+
+{/* -- no botz please */}
+
+<div style={{position: 'absolute', left: '-5000px',}} aria-hidden="true"><input type="text" name="a_password" tabindex="-1" value="" autocomplete="off" /></div>
+
               <legend class="title">
                 By subscribing you are accepting the below terms and conditions
               </legend>
@@ -136,6 +139,7 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
               </li>
             </ul>
           </form>
+          <script src="https://sendfox.com/js/form.js"></script>
           {close}
         </article>
 
