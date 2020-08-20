@@ -42,7 +42,17 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
 <form method="post" action="https://sendfox.com/form/vm5kxm/19kxqx" class="sendfox-form" id="19kxqx" data-async="true" data-recaptcha="false">
 <p><input type="text" placeholder="First Name" name="first_name" required /></p>
 <p><input type="email" placeholder="Email" name="email" required /></p>
-<p><label><input type="checkbox" name="gdpr" value="1" required /> I agree to receive email updates and promotions.</label></p>
+{/* <p><label><input type="checkbox" name="gdpr" value="1" required /> I agree to receive email updates and promotions.</label></p> */}
+
+         <div className="field half first">
+                   <label>I agree to receive email updates.</label>
+            </div>
+            <div className="field half">
+                   <select name="size" required="">
+                     <option value="" disabled="" selected="">- Select from List -</option>
+                     <option name="gdrp" value="Yes" required>Yes</option>
+                   </select>
+            </div>
 
 {/* -- no botz please */}
 
