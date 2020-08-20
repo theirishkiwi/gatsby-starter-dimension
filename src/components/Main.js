@@ -41,7 +41,7 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
 
         <h3 className="major">Veg Club Subscription</h3>
 
-      <form name="subscription" method="post" action="https://sendfox.com/form/vm5kxm/19kxqx" class="sendfox-form" id="19kxqx" data-async="true" data-recaptcha="false" data-netlify="true" data-netlify-honeypot="bot-field">  
+      <form name="subscription" method="post" data-netlify="true" data-netlify-honeypot="bot-field">  
 
         {/* You need to add the hidden input with the form name to your JSX form */}
 
@@ -135,7 +135,6 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
               </li>
             </ul>
           </form>
-          <script src="https://sendfox.com/js/form.js"></script>
           {close}
         </article>
 
