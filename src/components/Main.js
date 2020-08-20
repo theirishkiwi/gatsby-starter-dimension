@@ -125,6 +125,7 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
               </p>   
                 <br/>
             </div>
+            <ul>
               <li>
                 <input type="submit" value="Subscribe" className="special" />
               </li>
