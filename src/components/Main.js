@@ -108,7 +108,7 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
             <div>
 
             <div className="field half first">
-                   <label>I consent to receive emails</label>
+                   <label>I consent to receive emails and below terms</label>
             </div>
             <div className="field half">
                    <select name="method" required="">
@@ -117,9 +117,6 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
                    </select>
             </div>
 
-              <legend class="title">
-                By subscribing you are accepting the below terms and conditions
-              </legend>
               <sub>
                 Terms and Conditions:
               </sub>
