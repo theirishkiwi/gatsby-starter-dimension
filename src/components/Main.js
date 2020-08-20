@@ -117,10 +117,6 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
                    </select>
             </div>
 
-{/* -- no botz please */}
-
-<div style={{position: 'absolute', left: '-5000px',}} aria-hidden="true"><input type="text" name="a_password" tabindex="-1" value="" autocomplete="off" /></div>
-
               <legend class="title">
                 By subscribing you are accepting the below terms and conditions
               </legend>
