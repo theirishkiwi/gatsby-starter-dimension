@@ -116,7 +116,7 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
                      <option name="gdpr" value="Yes" required>Yes</option>
                    </select>
             </div>
-            <div>
+            
               <sub>
                 Terms and Conditions:
               </sub>
