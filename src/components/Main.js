@@ -115,6 +115,7 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
                      <option value="" disabled="" selected="">- Select from list -</option>
                      <option name="gdpr" value="Yes" required>Yes</option>
                    </select>
+            </div>
               <li>
                 <input type="submit" value="Subscribe" className="special" />
               </li>
