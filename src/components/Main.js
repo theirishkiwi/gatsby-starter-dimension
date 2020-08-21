@@ -108,22 +108,13 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
             <div>
 
             <div className="field half first">
-                   <label>I consent to receive emails and accept T's & C's</label>
+                   <label>I agree to receive emails</label>
             </div>
             <div className="field half">
                    <select name="method" required="">
                      <option value="" disabled="" selected="">- Select from list -</option>
                      <option name="gdpr" value="Yes" required>Yes</option>
                    </select>
-            </div>
-
-              <h3>Terms and Conditions:</h3>
-              <p class="terms">  
-                Terms go here...
-              </p>   
-                <br/>
-
-            </div>
               <li>
                 <input type="submit" value="Subscribe" className="special" />
               </li>
