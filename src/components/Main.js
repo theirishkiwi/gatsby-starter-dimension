@@ -104,15 +104,15 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
               <textarea name="comment" id="comment" rows="4"></textarea>
             </div>
             <ul className="actions">
-              <li>
+              
             <div>
 
             <div className="field half first">
-                   <label>I consent to receive emails and below terms</label>
+                   <label>I consent to receive emails and accept T's & C's</label>
             </div>
             <div className="field half">
                    <select name="method" required="">
-                     <option value="" disabled="" selected="">- Select from List -</option>
+                     <option value="" disabled="" selected="">- Select from list -</option>
                      <option name="gdpr" value="Yes" required>Yes</option>
                    </select>
             </div>
@@ -124,7 +124,9 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
                 Terms go here...
               </p>   
                 <br/>
+
             </div>
+              <li>
                 <input type="submit" value="Subscribe" className="special" />
               </li>
               <li>
