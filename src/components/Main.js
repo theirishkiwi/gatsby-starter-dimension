@@ -46,7 +46,7 @@ When you subscribe you can choose to receive a box: weekly, fortnightly or month
         {/* You need to add the hidden input with the form name to your JSX form */}
 
             <p class="hidden">
-              <label>Don’t fill this out if you're human: <input type="hidden" name="bot-field" /></label>
+              <label type="hidden">Don’t fill this out if you're human: <input type="hidden" name="bot-field" /></label>
             </p> 
             <input type="hidden" name="form-name" value="subscription" />
 
