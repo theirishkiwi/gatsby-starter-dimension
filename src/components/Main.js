@@ -60,7 +60,7 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
             </div>
 
             <div className="field half first">
-                   <label>Method:</label>
+                   <label>Method: *</label>
             </div>
             <div className="field half">
                    <select name="method" aria-label="method required" required>
