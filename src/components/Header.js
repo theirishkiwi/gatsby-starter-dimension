@@ -18,9 +18,9 @@ const Header = props => (
       <div className="inner">
         <h1>Picked Organic</h1>
         <p>
-We are a Market Garden growing vegetables using organic principles.
+We're a Market Garden growing vegetables using organic principles.
         <br/>
-Buy vegetables free from pesticides and chemicals.
+We grow seasonal veggies free from pesticides and chemicals.
 
        </p>
       </div>
