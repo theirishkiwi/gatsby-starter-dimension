@@ -117,15 +117,11 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
                    </select>
             </div>
 
-            <div>
-              <sub>
-                Terms and Conditions:
-              </sub>
+              <h3>Terms and Conditions:</h3>
               <p class="terms">  
                 Terms go here...
               </p>   
                 <br/>
-            </div>
 
             </div>
               <li>
