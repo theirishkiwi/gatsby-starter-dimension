@@ -34,7 +34,7 @@ class Main extends React.Component {
           </span>
           <p></p>
           <p>
-We supply our Veg Club members with fresh organic vegetables all year round. The reason we launched a subscription service is so we can cater for you regularly and plan ahead so we can supply you with fresh seasonal veg all year round. 
+We want to supply our lovely Veg Club members with fresh organic veggies all year round. This is reason we launched a subscription service is so we can cater for you regularly and plan ahead so we can supply you with fresh seasonal veg all year round. 
 We have two sizes of seasonal veg boxes small and large. The picture shown is an example and will vary with the seasons and what has been freshly picked. A small box is £10 and a large box is currently £15.
 When you subscribe you can choose to receive a box: weekly, fortnightly or monthly. Our subscription service is flexible so if you wish to pause, downscale or upscale your subscription get in touch via email and we'll be happy to help.
          </p>	
@@ -110,7 +110,7 @@ When you subscribe you can choose to receive a box: weekly, fortnightly or month
             <div>
 
             <div className="field half first">
-                   <label>I agree to receive a few emails: *</label>
+                   <label>I'd like to subscribe: *</label>
             </div>
             <div className="field half">
                    <select name="GDPR" aria-label="Must agree to submit" required>
