@@ -103,9 +103,10 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
               <label htmlFor="comment">Comments/ Special Requests</label>
               <textarea name="comment" id="comment" rows="4"></textarea>
             </div>
+            <div>
             <ul className="actions">
               <li>
-            <div>
+            </div>
 
             <div className="field half first">
                    <label>I consent to receive emails and below terms</label>
