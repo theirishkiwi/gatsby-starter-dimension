@@ -49,7 +49,7 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
             <input type="hidden" name="form-name" value="subscription" />
 
             <div className="field half first">
-                   <label>Choose Your Veg Box:</label>
+                   <label>Choose Your Veg Box: *</label>
             </div>
             <div className="field half">
                    <select name="size" aria-label="size required" required>
@@ -71,7 +71,7 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
             </div>
 
            <div className="field half first">
-                   <label>Frequency:</label>
+                   <label>Frequency: *</label>
             </div>
             <div className="field half">
                    <select name="frequency" aria-label="frequency required" required>
@@ -84,19 +84,19 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
             </div>
 
             <div className="field">
-              <label htmlFor="name">Name</label>
+              <label htmlFor="name">Name: *</label>
               <input type="text" name="name" id="name" aria-label="name required" required/>
             </div>
             <div className="field">
-              <label htmlFor="email">Email</label>
+              <label htmlFor="email">Email: *</label>
               <input type="email" name="email" id="email" aria-label="email required" required/>
             </div>
             <div className="field">
-              <label htmlFor="tel">Contact Number</label>
+              <label htmlFor="tel">Contact Number: *</label>
               <input type="tel" name="tel" id="tel" aria-label="required" required/>
             </div>
             <div className="field">
-              <label htmlFor="address">Address for Delivery</label>
+              <label htmlFor="address">Address for Delivery:</label>
               <textarea name="address" id="address" rows="4"></textarea>
             </div>
             <div className="field">
@@ -108,7 +108,7 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
             <div>
 
             <div className="field half first">
-                   <label>I agree to receive emails</label>
+                   <label>I agree to receive emails: *</label>
             </div>
             <div className="field half">
                    <select name="GDPR" aria-label="Must agree to submit" required>
