@@ -111,9 +111,9 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
                    <label>I agree to receive emails</label>
             </div>
             <div className="field half">
-                   <select name="GDPR" required="">
+                   <select name="GDPR" required="" aria-required="true">
                      <option value="" disabled="" selected="">- Select from list -</option>
-                     <option name="gdpr" value="Yes" required>Yes</option>
+                     <option name="gdpr" value="Yes">Yes</option>
                    </select>
             </div>
             </div>
