@@ -117,6 +117,7 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
                    </select>
             </div>
 
+            <div>
               <sub>
                 Terms and Conditions:
               </sub>
@@ -124,6 +125,7 @@ We have the following options for subscriptions: weekly, fortnightly and monthly
                 Terms go here...
               </p>   
                 <br/>
+            </div>
 
             </div>
               <li>
