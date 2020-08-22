@@ -3,6 +3,7 @@ import React from 'react'
 import veg_club from '../images/veg_club.jpg'
 import faqs from '../images/faqs.jpg'
 import ourstory from '../images/ourstory.jpg'
+
       
 class Main extends React.Component {
   render() {
@@ -41,12 +42,25 @@ When you subscribe you can choose to receive a box: weekly, fortnightly or month
 
         <h3 className="major">Veg Club Subscription</h3>
 
+<button class="snipcart-add-item"
+  data-item-id="small-veg"
+  data-item-price="10.00"
+  data-item-custom1-name="Frequency"
+  data-item-custom1-options="weekly|fortnightly|monthly"
+  data-item-custom1-value="weekly"
+  data-item-url="/paintings/starry-night"
+  data-item-description="Small Veg Box Subscription."
+  data-item-image="../images/veg_club.jpg"
+  data-item-name="Small Veg Box">
+  Subscribe - Small Veg Box!
+</button>
+
       <form name="subscription" method="post" data-netlify="true" data-netlify-honeypot="bot-field">  
 
         {/* You need to add the hidden input with the form name to your JSX form */}
 
             <p class="hidden">
-              <label type="hidden">Don’t fill this out if you're human: <input type="hidden" name="bot-field" /></label>
+              <input type="hidden" name="bot-field" />
             </p> 
             <input type="hidden" name="form-name" value="subscription" />
 

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Picked Organic  Farm',
+    title: 'Picked Organic Farm',
     author: 'Hunter Chang',
     description: 'A Gatsby.js V2 Starter based on Dimension by HTML5 UP',
   },
@@ -19,5 +19,12 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
+    {
+        resolve: 'gatsby-plugin-snipcartv3',
+        options: {
+            version: '3.0.20',
+            apiKey: 'MmQ0ZmU2NDEtZjc4MS00NjBmLThlN2EtYjliYzVmYTQ4MGI3NjM3MDI2MTI1Mjk1NTczMjAz', // use public api key here or in environment variable
+        },
+    },
   ],
 }
