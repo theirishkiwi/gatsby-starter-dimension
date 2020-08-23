@@ -1,15 +1,28 @@
+.snipcart {
+    color: #313332!important;
+}
+
+button.snipcart {
+    color: #313332!important;
+    box-shadow: none;
+}
+
 button.snipcart-modal__close {
     color: #313332!important;
+    box-shadow: none;
 }
 
 button.snipcart-discount-box__button {
     color: #313332!important;
+    box-shadow: none;
 }
 
 button.snipcart-discount-box__cancel {
     color: #313332!important;
+    box-shadow: none;
 }
 
-.snipcart-cart-header__count, .snipcart-cart-header__sign-in, .snipcart-cart-header__sign-out {
+button.snipcart-cart-header__count, .snipcart-cart-header__sign-in, .snipcart-cart-header__sign-out {
     color: #313332!important;
+    box-shadow: none;
 }
