@@ -35,15 +35,14 @@ class Main extends React.Component {
           </span>
           <p></p>
           <p>
-We want to supply our lovely Veg Club members with fresh organic veggies all year round. This is reason we launched a subscription service is so we can cater for you regularly and plan ahead so we can supply you with fresh seasonal veg all year round. 
+We want to supply our lovely Veg Club members with fresh organic veggies all year round. The reason we launched a subscription service is so we can cater for you regularly and plan ahead so we can supply you with fresh seasonal veg all year round. 
 We have two sizes of seasonal veg boxes small and large. The picture shown is an example and will vary with the seasons and what has been freshly picked. A small box is £10 and a large box is currently £15.
 When you subscribe you can choose to receive a box: weekly, fortnightly or monthly. Our subscription service is flexible so if you wish to pause, downscale or upscale your subscription get in touch via email and we'll be happy to help.
          </p>	
 
-        <h3 className="major">Veg Club Subscription</h3>
-   <div class="w3-center">
-    <div class="w3-bar">
-	<button class="snipcart-add-item"
+        <h3 className="major">Veg Club Subscriptions</h3>
+    <div class="ph3 ph5-ns">
+	<button class="grow br2 mr3 mb3 dib snipcart-add-item"
   	  data-item-id="small-veg"
   	  data-item-price="10.00"
   	  data-item-custom1-name="Frequency"
@@ -55,7 +54,7 @@ When you subscribe you can choose to receive a box: weekly, fortnightly or month
   	  data-item-name="Small Veg Box">
   	  Small Veg Box
 	</button>
-	<button class="snipcart-add-item"
+	<button class="grow br2 mr3 dib snipcart-add-item"
   	  data-item-id="large-veg"
   	  data-item-price="15.00"
   	  data-item-custom1-name="Frequency"
@@ -68,7 +67,6 @@ When you subscribe you can choose to receive a box: weekly, fortnightly or month
   	  Large Veg Box
 	</button>
     </div>
-  </div>
 
       {/* <form name="subscription" method="post" data-netlify="true" data-netlify-honeypot="bot-field">  
 
