@@ -41,7 +41,7 @@ When you subscribe you can choose to receive a box: weekly, fortnightly or month
          </p>	
 
         <h3 className="major">Veg Club Subscriptions</h3>
-    <div class="ph3 ph5-ns">
+    <div class="ph3 ph5 pb3">
 	<button class="grow br2 mr3 mb3 dib snipcart-add-item"
   	  data-item-id="small-veg"
   	  data-item-price="10.00"
@@ -54,7 +54,7 @@ When you subscribe you can choose to receive a box: weekly, fortnightly or month
   	  data-item-name="Small Veg Box">
   	  Small Veg Box
 	</button>
-	<button class="grow br2 mr3 dib snipcart-add-item"
+	<button class="grow br2 mr3 mb3 dib snipcart-add-item"
   	  data-item-id="large-veg"
   	  data-item-price="15.00"
   	  data-item-custom1-name="Frequency"
