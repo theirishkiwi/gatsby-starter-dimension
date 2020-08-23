@@ -1,0 +1,15 @@
+button.snipcart-modal__close {
+    color: #313332!important;
+}
+
+button.snipcart-discount-box__button {
+    color: #313332!important;
+}
+
+button.snipcart-discount-box__cancel {
+    color: #313332!important;
+}
+
+.snipcart-cart-header__count, .snipcart-cart-header__sign-in, .snipcart-cart-header__sign-out {
+    color: #313332!important;
+}
