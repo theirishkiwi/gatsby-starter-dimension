@@ -26,3 +26,7 @@ button.snipcart-cart-header__count, .snipcart-cart-header__sign-in, .snipcart-ca
     color: #313332!important;
     box-shadow: none;
 }
+
+label.snipcart-form__label {
+    color: #313332!important;
+}
