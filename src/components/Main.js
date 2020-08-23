@@ -41,8 +41,8 @@ When you subscribe you can choose to receive a box: weekly, fortnightly or month
          </p>	
 
         <h3 className="major">Veg Club Subscription</h3>
-
-    <div class="sub-buttons">
+   <div class="w3-center">
+    <div class="w3-bar">
 	<button class="snipcart-add-item"
   	  data-item-id="small-veg"
   	  data-item-price="10.00"
@@ -50,12 +50,11 @@ When you subscribe you can choose to receive a box: weekly, fortnightly or month
   	  data-item-custom1-options="weekly|fortnightly|monthly"
   	  data-item-custom1-value="weekly"
   	  data-item-url="/paintings/starry-night"
-  	  data-item-description="Small Veg Box Subscription."
+  	  data-item-description="A Small Veg Box consists of 6 seasonal veg items and should be enough for 2-4 people."
   	  data-item-image={veg_club}
   	  data-item-name="Small Veg Box">
-  	  Small Veg Box!
+  	  Small Veg Box
 	</button>
-
 	<button class="snipcart-add-item"
   	  data-item-id="large-veg"
   	  data-item-price="15.00"
@@ -63,12 +62,13 @@ When you subscribe you can choose to receive a box: weekly, fortnightly or month
   	  data-item-custom1-options="weekly|fortnightly|monthly"
   	  data-item-custom1-value="weekly"
   	  data-item-url="/paintings/starry-night"
-  	  data-item-description="Large Veg Box Subscription."
+  	  data-item-description="A Large Veg Box consists of 10 seasonal veg items and should be enough for 4-6 people."
   	  data-item-image={veg_club}
   	  data-item-name="Large Veg Box">
-  	  Large Veg Box!
+  	  Large Veg Box
 	</button>
     </div>
+  </div>
 
       {/* <form name="subscription" method="post" data-netlify="true" data-netlify-honeypot="bot-field">  
 
