@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import veg_club from '../images/veg_club.jpg'
+import vegbox from '../images/vegbox.jpg'
 import faqs from '../images/faqs.jpg'
 import ourstory from '../images/ourstory.jpg'
 
@@ -50,7 +51,7 @@ When you subscribe you can choose to receive a box: weekly, fortnightly or month
   	  data-item-custom1-value="weekly"
   	  data-item-url="/paintings/starry-night"
   	  data-item-description="A Small Veg Box consists of 6 seasonal veg items and should be enough for 2-4 people."
-  	  data-item-image={veg_club}
+  	  data-item-image={vegbox}
   	  data-item-name="Small Veg Box">
   	  Small Veg Box
 	</button>
@@ -62,7 +63,7 @@ When you subscribe you can choose to receive a box: weekly, fortnightly or month
   	  data-item-custom1-value="weekly"
   	  data-item-url="/paintings/starry-night"
   	  data-item-description="A Large Veg Box consists of 10 seasonal veg items and should be enough for 4-6 people."
-  	  data-item-image={veg_club}
+  	  data-item-image={vegbox}
   	  data-item-name="Large Veg Box">
   	  Large Veg Box
 	</button>
