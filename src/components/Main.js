@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import veg_club from '../images/veg_club.jpg'
-import vegbox from '../images/vegbox.jpg'
+import vegbox from '../images/vegbox_flipped.jpg'
 import faqs from '../images/faqs.jpg'
 import ourstory from '../images/ourstory.jpg'
 
