@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import veg_club from '../images/veg_club.jpg'
-import vegbox from '../images/vegbox_flipped.jpg'
-import faqs from '../images/faqs.jpg'
-import ourstory from '../images/ourstory.jpg'
+import veg_club from '../images/veg_club-min.jpg'
+import vegbox from '../images/vegbox_flipped-min.jpg'
+import faqs from '../images/faqs-min.jpg'
+import ourstory from '../images/ourstory-min.jpg'
 
       
 class Main extends React.Component {
