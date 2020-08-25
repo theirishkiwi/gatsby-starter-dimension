@@ -18,7 +18,7 @@ const Header = props => (
       <div className="inner">
         <h1>Picked Organic</h1>
         <p>
-NI based garket garden. Sustainably growing real food using organic principles.
+NI based market garden. Sustainably growing real food using organic principles.
         <br/>
 We grow seasonal veggies free from pesticides and chemicals.
 
