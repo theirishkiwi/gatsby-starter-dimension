@@ -2,11 +2,11 @@
 @import 'libs/functions';
 @import 'libs/mixins';
 @import 'libs/skel';
-@import '../css/font-awesome.min.css';
+@import url('https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css');
 @import '../css/tweaks.css';
+@import '../css/font-awesome.min.css';
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600');
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&display=swap');
-@import url('https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css');
 
 /*
 	Dimension by HTML5 UP
