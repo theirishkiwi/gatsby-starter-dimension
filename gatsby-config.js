@@ -1,3 +1,7 @@
+require("dotenv").config({
+  version: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: 'Picked Organic Farm',
@@ -22,7 +26,7 @@ module.exports = {
     {
         resolve: 'gatsby-plugin-snipcartv3020',
         options: {
-            version: '3.0.20',
+            version: process.env.version,
             apiKey: 'MmQ0ZmU2NDEtZjc4MS00NjBmLThlN2EtYjliYzVmYTQ4MGI3NjM3MDI2MTI1Mjk1NTczMjAz', // use public api key here or in environment variable
         },
     },
