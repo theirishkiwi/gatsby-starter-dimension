@@ -6,8 +6,9 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sass',
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: 'gatsby-plugin-manifest',
       options: {
         name: 'gatsby-starter-default',
         short_name: 'starter',
@@ -18,7 +19,6 @@ module.exports = {
         icon: 'src/images/logo-min.png', // This path is relative to the root of the site.
       },
     },
-    'gatsby-plugin-sass',
     {
         resolve: 'gatsby-plugin-snipcartv3',
         options: {
@@ -27,4 +27,4 @@ module.exports = {
         },
     },
   ],
-}
+};
