@@ -41,7 +41,7 @@ We have two sizes of seasonal veg boxes small and large. The picture shown is an
 When you subscribe you can choose to receive a box: weekly, fortnightly or monthly. Our subscription service is flexible so if you wish to pause, downscale or upscale your subscription get in touch via email and we'll be happy to help.
          </p>	
 
-        <h3 className="major">Veg Club - Subscription Options</h3>
+        <h3 className="major">Veg Club - Subscription</h3>
 
         <MultiPageForm />
 
