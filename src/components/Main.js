@@ -5,7 +5,6 @@ import vegbox from '../images/vegbox_flipped-min.jpg'
 import faqs from '../images/faqs-min.jpg'
 import ourstory from '../images/ourstory-min.jpg'
 import MultiPageForm from "./MultiPageForm";
-import ContactForm from "./ContactForm"
       
 class Main extends React.Component {
   render() {
