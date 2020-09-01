@@ -4,7 +4,8 @@ import veg_club from '../images/veg_club-min.jpg'
 import vegbox from '../images/vegbox_flipped-min.jpg'
 import faqs from '../images/faqs-min.jpg'
 import ourstory from '../images/ourstory-min.jpg'
-
+import MultiPageForm from "./MultiPageForm";
+import ContactForm from "./ContactForm"
       
 class Main extends React.Component {
   render() {
@@ -41,121 +42,38 @@ We have two sizes of seasonal veg boxes small and large. The picture shown is an
 When you subscribe you can choose to receive a box: weekly, fortnightly or monthly. Our subscription service is flexible so if you wish to pause, downscale or upscale your subscription get in touch via email and we'll be happy to help.
          </p>	
 
-        <h3 className="major">Veg Club Subscriptions</h3>
-    <div class="ph3 ph5 pb3">
-	<button class="grow br2 mr3 mb3 dib snipcart-add-item"
-  	  data-item-id="small-veg"
-  	  data-item-price="10.00"
-  	  data-item-custom1-name="Frequency"
-  	  data-item-custom1-options="weekly|fortnightly|monthly"
-  	  data-item-custom1-value="weekly"
-  	  data-item-url="/paintings/starry-night"
-  	  data-item-description="A Small Veg Box consists of 6 seasonal veg items and should be enough for 2-4 people."
-  	  data-item-image={vegbox}
-  	  data-item-name="Small Veg Box">
-  	  Small Veg Box
-	</button>
-	<button class="grow br2 mr3 mb3 dib snipcart-add-item"
-  	  data-item-id="large-veg"
-  	  data-item-price="15.00"
-  	  data-item-custom1-name="Frequency"
-  	  data-item-custom1-options="weekly|fortnightly|monthly"
-  	  data-item-custom1-value="weekly"
-  	  data-item-url="/paintings/starry-night"
-  	  data-item-description="A Large Veg Box consists of 10 seasonal veg items and should be enough for 4-6 people."
-  	  data-item-image={vegbox}
-  	  data-item-name="Large Veg Box">
-  	  Large Veg Box
-	</button>
-    </div>
+        <h3 className="major">Veg Club - Subscription Options</h3>
 
-      {/* <form name="subscription" method="post" data-netlify="true" data-netlify-honeypot="bot-field">  
+        <MultiPageForm />
 
-        You need to add the hidden input with the form name to your JSX form
-
-            <p class="hidden">
-              <input type="hidden" name="bot-field" />
-            </p> 
-            <input type="hidden" name="form-name" value="subscription" />
-
-            <div className="field half first">
-                   <label>Choose Your Veg Box: *</label>
-            </div>
-            <div className="field half">
-                   <select name="size" aria-label="size required" required>
-                     <option value="" disabled="" selected="">- Select from List -</option>
-                     <option name="smallbox" value="Small Veg Box - £10">Small Veg Box - £10</option>
-                     <option name="largebox" value="Large Veg Box - £15">Large Veg Box - £15</option>
-                   </select>
-            </div>
-
-            <div className="field half first">
-                   <label>Method: *</label>
-            </div>
-            <div className="field half">
-                   <select name="method" aria-label="method required" required>
-                     <option value="" disabled="" selected="">- Select from List -</option>
-                     <option name="delivery" value="Delivered - £2">Delivery - £2</option>
-                     <option name="collect" value="Collected - Free">Collection - Free</option>
-                   </select>
-            </div>
-
-           <div className="field half first">
-                   <label>Frequency: *</label>
-            </div>
-            <div className="field half">
-                   <select name="frequency" aria-label="frequency required" required>
-                     <option value="" disabled="" selected="">- Select from List -</option>
-                     <option name="weekly" value="Weekly Veg Membership">Weekly Veg Membership</option>
-                     <option name="fortnightly" value="Fortnightly Veg Membership">Fortnightly Veg Membership</option>
-
-<option name="Monthly" value="Monthly Veg Membership">Monthly Veg Membership</option>
-                   </select>
-            </div>
-
-            <div className="field">
-              <label htmlFor="name">Name: *</label>
-              <input type="text" name="name" id="name" aria-label="name required" required/>
-            </div>
-            <div className="field">
-              <label htmlFor="email">Email: *</label>
-              <input type="email" name="email" id="email" aria-label="email required" required/>
-            </div>
-            <div className="field">
-              <label htmlFor="tel">Contact Number: *</label>
-              <input type="tel" name="tel" id="tel" aria-label="required" required/>
-            </div>
-            <div className="field">
-              <label htmlFor="address">Address for Delivery:</label>
-              <textarea name="address" id="address" rows="4"></textarea>
-            </div>
-            <div className="field">
-              <label htmlFor="comment">Comments/ Special Requests</label>
-              <textarea name="comment" id="comment" rows="4"></textarea>
-            </div>
-            <ul className="actions">
-              
-            <div>
-
-            <div className="field half first">
-                   <label>I'd like to subscribe: *</label>
-            </div>
-            <div className="field half">
-                   <select name="GDPR" aria-label="Must agree to submit" required>
-                     <option value="" disabled="" selected="">- Select from list -</option>
-                     <option name="gdpr" value="Yes">Yes</option>
-                   </select>
-            </div>
-            </div>
-
-              <li>
-                <input type="submit" value="Subscribe" className="special" />
-              </li>
-              <li>
-                <input type="reset" value="Reset" />
-              </li>
-            </ul>
-          </form> */}
+      {/* 
+       <div class="ph3 ph5 pb3">
+          <button class="grow br2 mr3 mb3 dib snipcart-add-item"
+              data-item-id="small-veg"
+              data-item-price="10.00"
+              data-item-custom1-name="Frequency"
+              data-item-custom1-options="weekly|fortnightly|monthly"
+              data-item-custom1-value="weekly"
+              data-item-url="/paintings/starry-night"
+              data-item-description="A Small Veg Box consists of 6 seasonal veg items and should be enough for 2-4 people."
+              data-item-image={vegbox}
+              data-item-name="Small Veg Box">
+              Small Veg Box
+          </button>
+          <button class="grow br2 mr3 mb3 dib snipcart-add-item"
+              data-item-id="large-veg"
+              data-item-price="15.00"
+              data-item-custom1-name="Frequency"
+              data-item-custom1-options="weekly|fortnightly|monthly"
+              data-item-custom1-value="weekly"
+              data-item-url="/paintings/starry-night"
+              data-item-description="A Large Veg Box consists of 10 seasonal veg items and should be enough for 4-6 people."
+              data-item-image={vegbox}
+              data-item-name="Large Veg Box">
+              Large Veg Box
+          </button>
+        </div> 
+       */}
           {close}
         </article>
 
