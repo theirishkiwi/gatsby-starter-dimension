@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Form } from 'react-final-form'
 import vegbox from '../images/vegbox_flipped-min.jpg'
+import pickupTimes from './pickupTimes'
 
 export default class Wizard extends React.Component {
   static propTypes = {
@@ -29,7 +30,7 @@ export default class Wizard extends React.Component {
 
   /**
    * NOTE: Both validate and handleSubmit switching are implemented
-   * here because 🏁 Redux Final Form does not accept changes to those
+   * here because Redux Final Form does not accept changes to those
    * functions once the form has been defined.
    */
 
@@ -62,7 +63,7 @@ export default class Wizard extends React.Component {
         validate={this.validate}
         onSubmit={this.handleSubmit}
       >
-        {({ handleSubmit, submitting, values }) => (
+        {({ handleSubmit, form, submitting, values }) => (
           <form onSubmit={handleSubmit}>
             {activePage}
             <div className="buttons">

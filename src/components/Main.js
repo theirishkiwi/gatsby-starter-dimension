@@ -1,10 +1,9 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import veg_club from '../images/veg_club-min.jpg'
-import vegbox from '../images/vegbox_flipped-min.jpg'
 import faqs from '../images/faqs-min.jpg'
 import ourstory from '../images/ourstory-min.jpg'
-import MultiPageForm from "./MultiPageForm";
+import ContactForm from "./ContactForm"
       
 class Main extends React.Component {
   render() {
@@ -43,7 +42,7 @@ When you subscribe you can choose to receive a box: weekly, fortnightly or month
 
         <h3 className="major">Veg Club - Subscription</h3>
 
-        <MultiPageForm />
+        <ContactForm />
 
       {/* 
        <div class="ph3 ph5 pb3">
