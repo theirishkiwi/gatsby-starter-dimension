@@ -13,18 +13,31 @@ const onSubmit = async values => {
 const ContactForm = () => (
     <Form
       onSubmit={onSubmit}
-      initialValues={{ stooge: 'larry', employed: false }}
+      initialValues={{ large: true, weekly: true, collect: true }}
       render={({ handleSubmit, form, submitting, pristine, values }) => (
         <form onSubmit={handleSubmit}>
+
         <div class="pa4">
-           <label>Veg Box Sizes</label>
+           <label>Size</label>
             <div class="flex mb2">
-              <Field class="mr2" id="small veg box" name="Small veg box" component="input" type="checkbox" />
-              <label for="small veg box">Small veg box</label>
+              <Field class="mr2" 
+              type="radio"
+              name="vegbox"
+              id="small"
+              value="small"
+              component="input"
+              />
+              <label for="small">Small veg box</label>
             </div>
             <div class="flex mb2">
-              <Field class="mr2" id="large veg box" name="Large veg box" component="input" type="checkbox" />
-              <label for="large veg box">Large veg box</label>
+              <Field class="mr2"
+              type="radio" 
+              name="vegbox"
+              id="large"
+              value="large"
+              component="input"
+              />
+              <label for="large">Large veg box</label>
             </div>
           </div>
 
@@ -32,15 +45,33 @@ const ContactForm = () => (
             <br />
           <label>Frequency</label>
             <div class="flex mb2">
-              <Field class="mr2" id="weekly" name="Weekly" component="input" type="checkbox" />
+              <Field class="mr2" 
+              type="radio"
+              name="freq" 
+              id="weekly" 
+              value="weekly"
+              component="input"  
+              />
               <label for="weekly">Weekly</label>
             </div>
             <div class="flex mb2">
-              <Field class="mr2" id="fortnightly" name="Fortnightly" component="input" type="checkbox" />
+              <Field class="mr2" 
+              type="radio"
+              name="freq" 
+              id="fortnightly" 
+              value="fortnightly"
+              component="input"
+              />
               <label for="fortnightly">Fortnightly</label>
             </div>
             <div class="flex mb2">
-              <Field class="mr2" id="monthly" name="Monthly" component="input" type="checkbox" />
+              <Field class="mr2" 
+              type="radio"
+              name="freq" 
+              id="monthly" 
+              value="monthly"
+              component="input" 
+              />
               <label for="monthly">Monthly</label>
             </div>
           </div>
@@ -48,13 +79,25 @@ const ContactForm = () => (
           <div class="pa4">
             <br />
           <label>Transport</label>
-            <div class="flex mb2">
-              <Field class="mr2" id="delivery" name="Delivery" component="input" type="checkbox" />
-              <label for="delivery">Delivery</label>
+          <div class="flex mb2">
+              <Field class="mr2" 
+              type="radio"
+              name="transport" 
+              id="collect" 
+              value="collect"
+              component="input"
+               />
+              <label for="collect">Collect</label>
             </div>
             <div class="flex mb2">
-              <Field class="mr2" id="collection" name="Collection" component="input" type="checkbox" />
-              <label for="collection">Collection</label>
+              <Field class="mr2" 
+              type="radio"
+              name="transport" 
+              id="delivery" 
+              value="delivery"
+              component="input" 
+              />
+              <label for="delivery">Delivery</label>
             </div>
           </div>
 
